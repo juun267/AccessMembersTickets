@@ -134,3 +134,5 @@ dist
 .expo
 frontend/.expo
 backend/.expo
+
+*.sqlite
