@@ -1,0 +1,36 @@
+{
+  "name": "event-ticketing-backend",
+  "version": "1.0.0",
+  "description": "NestJS backend for event ticketing application",
+  "scripts": {
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "build": "nest build",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nestjs/apollo": "^10.1.7",
+    "@nestjs/common": "^9.4.3",
+    "@nestjs/core": "^9.4.3",
+    "@nestjs/graphql": "^10.1.7",
+    "@nestjs/platform-express": "^9.4.3",
+    "@nestjs/typeorm": "^9.0.0",
+    "apollo-server-express": "^3.0.0",
+    "class-transformer": "^0.4.0",
+    "class-validator": "^0.13.2",
+    "graphql": "^16.0.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.0.0",
+    "sqlite3": "^5.0.0",
+    "typeorm": "^0.3.0"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^9.0.0",
+    "@nestjs/schematics": "^9.0.0",
+    "@types/jest": "^27.0.0",
+    "@types/node": "^16.0.0",
+    "jest": "^27.0.0",
+    "ts-jest": "^27.0.0",
+    "typescript": "^4.3.5"
+  }
+}
